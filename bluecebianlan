@@ -1,7 +1,7 @@
 <script type="text/javascript">
     window.cnblogsConfig = {
         GhVersions    : 'v1.2.4', // 版本
-        blogUser      : "Vikee's Blog", // 用户名
+        blogUser      : "whoise's Blog", // 用户名
         blogAvatar    : "http://r.photo.store.qq.com/psc?/V10lqr6k12fA6e/gliYV*h0f2f2HjcOdYSYvUMzXh*KATNPwBO2nOicEFzhH9d2on8GwcM58jVfeEvJmwd5Y3SaKplkT7sFrvDqNKzN*iwNUtpBDtq4NBOjJ08!/r", // 用户头像
         blogStartDate : "2019-12-17", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
 
@@ -43,19 +43,19 @@
       */
         bottomText: { // 页脚标语
                 icon: "❤️", // 图标
-                    left: "「The future of possible。」", // 图标左侧文字
-                    right: "未来可期" // 图标右侧文字
+                    left: "「hello world」", // 图标左侧文字
+                    right: "世界你好" // 图标右侧文字
             },
 
          // ---- 控制台输出 ----
          consoleList: [
-                 ['Vikee CNBlogs', 'https://www.cnblogs.com/blazarstar'],
+                 ['Vikee CNBlogs', 'https://www.cnblogs.com/XXX'],
             ],
            themeAuthor: true, // 是否显示主题作者
             menuCustomList: {
                "文章": { // 标题
                    "data": [ // 列表数据 ['列表', '链接']
-                                 ['写作中', 'https://www.cnblogs.com/blazarstar/'],
+                                 ['准备中', 'https://www.cnblogs.com/XXX'],
                             ],
                            "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
                     },
