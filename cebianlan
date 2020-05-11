@@ -1,0 +1,7 @@
+<!-- 添加公告栏时钟 -->
+<div style="border-top: 1px dashed #ccc;padding: 5px;border-bottom: 1px dashed #ccc;height: 120px;">
+<div id="clockdiv">
+    <canvas id="dom" width="120" height="120">时钟canvas</canvas>
+</div>
+</div>
+<script type="text/javascript" src="https://files.cnblogs.com/files/shwee/clock.js"></script>

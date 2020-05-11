@@ -1,0 +1,44 @@
+/* 鼠标特效 */
+var a_idx = 0;
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("❤收获❤","❤博客园❤","❤gwwq❤","❤学习❤","❤加油❤","❤坚持❤","❤思考❤","❤好心情❤","❤快乐❤","❤平安❤");
+        var $i = $("<span></span>").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+        y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        1500,
+        function() {
+            $i.remove();
+        });
+    });
+});
+</script>
+/*小火箭返回功能*/
+<script src="https://files.cnblogs.com/files/hafiz/jquery-migrate-1.2.1.js"></script>
+<div id="scrollTop" style="display:none;">
+      <div class="level-2"></div>
+      <div class="level-3"></div>
+</div>
+<script src="http://files.cnblogs.com/files/hafiz/scroll2top.js"></script>
+<script type="text/javascript">
+    UI.global_search();
+    var uvOptions = {};
+    // !important
+    (function() {
+        initScrollTop();
+    })();
+</script>
