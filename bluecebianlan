@@ -49,7 +49,7 @@
 
          // ---- 控制台输出 ----
          consoleList: [
-                 ['Vikee CNBlogs', 'https://www.cnblogs.com/XXX'],
+                 ['who CNBlogs', 'https://www.cnblogs.com/XXX'],
             ],
            themeAuthor: true, // 是否显示主题作者
             menuCustomList: {
