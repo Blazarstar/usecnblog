@@ -2,7 +2,7 @@
 var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
-        var a = new Array("❤收获❤","❤博客园❤","❤gwwq❤","❤学习❤","❤加油❤","❤坚持❤","❤思考❤","❤好心情❤","❤快乐❤","❤平安❤");
+        var a = new Array("❤收获❤","❤博客园❤","❤www❤","❤学习❤","❤加油❤","❤坚持❤","❤思考❤","❤好心情❤","❤快乐❤","❤平安❤");
         var $i = $("<span></span>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
